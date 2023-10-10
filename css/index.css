@@ -1,0 +1,87 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    background: #900000;
+    position: fixed;
+}
+main{
+    padding: 2rem;
+    padding-top: 6rem;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #F5EFEF;
+    margin-bottom: 2rem;;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.iconemenu {
+    width: 2rem;
+    height: auto;
+}
+.iconesheader{
+    margin-right: 0.8rem;
+    margin-bottom: 0.2rem;
+    width: 2rem;
+    height: auto;
+}
+.posicaomenu{
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 3.5rem;
+}
+.posicaologo{
+    display: flex;
+    position:absolute;
+    left: 3.5rem;
+    top: 3.8rem;
+}
+.textologo{
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    border-bottom: 1px solid black;
+    background: #900000;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_icons{
+    width: 3.5rem;
+    height: auto;
+}
+
+
