@@ -4,75 +4,108 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Camera</title>
+    <title>Câmera</title>
+    <link type="text/css" href="../css/reset.css" rel="stylesheet" />
+    <link type="text/css" href="../css/camera.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>
+        <ul class="linha">
+            <li class="posicaomenu">
                 <a href="../CasoExtra/menu.html">
-                    <img src="../../img/menu.png" alt="Menu" />
+                    <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
                 </a>
             </li>
-            <li>
-                <a href="#">LOGO</a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="../../img/amigos.png" alt="Amigos" />
-                </a>
+            <li class="posicaologo">
+                <a href="#" class="textologo">LOGO</a>
             </li>
             <li>
                 <a href="galeria.html">
-                    <img src="../../img/plus_icon.png" alt="Adicionar publicação" />
+                    <img class="iconesheader" src="../icones/mais.png" alt="Adicionar publicação" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="iconesheader" src="../icones/amigos.png" alt="Amigos" />
                 </a>
             </li>
         </ul>
     </header>
+
     <main>
-        <img src="../../img/camera_expandida.png" alt="Camera" />
-        <ul>
+        <ul class="linha nav_2">
             <li>
-                <img src="../../img/camera_fotografica.png" alt="Tirar foto" />
+                <ul class='coluna'>
+                    <li>
+                        <ul class="linha">
+                            <button>
+                                <img src="../img/voltar.png" />
+                            </button>
+                        </ul>
+                        <ul class="linha espacamento">
+                            <li class="caixa">Nome do lugar</li>
+                            <li class="caixa2">
+                                <ul class="coluna">
+                                    <li>Classificação</li>
+                                    <img src="../img/classificacao_lugar.png"/>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="linha foto">
+                            <li>
+                                <img src="../img/foto_lugar.png"/>
+                            </li>
+                        </ul>
+                        <ul class="linha">
+                            <li>
+                                <ul class="coluna espacamento2">
+                                    <li class="caixa">Preço</li>
+                                    <li class="caixa">Endereço</li>
+                                </ul>
+                                <ul class="coluna espacamento5">
+                                    <button>
+                                        Data e hora marcada
+                                    </button>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="linha espacamento4">
+                            <li>
+                                <button>
+                                    Cancelar reserva
+                                </button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li>
-                <a href="descricaopubli.html">
-                    <img src="../../img/botao_foto.png" alt="Capturar" />
-                </a>
-            </li>
-            <li>
-                <img src="../../img/maquina_video.png" alt="Gravar vídeo" />
-            </li>
-        </ul>
-
-
+        </ul>     
 
     </main>
+
     <footer>
-        <ul>
+        <ul class="footer">
             <li>
                 <a href="#">
-                    <img src="../../img/home_icon.png" alt="Home" />
+                    <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
             <li>
-                <a href="../Caso2/locais_por_perto.html">
-                    <img src="../../img/lupa_icon.png" alt="Pesquisar locais" />
+                <a href="../Caso2/1_locais_por_perto.html">
+                    <img class="nav_icons" src="../icones/lupa.png" alt="Pesquisar locais" />
                 </a>
             </li>
             <li>
                 <a href="../Caso3/suas_reservas.html">
-                    <img src="../../img/reservas.png" alt="Suas reservas" />
+                    <img class="nav_icons" src="../icones/reservas.png" alt="Suas reservas" />
                 </a>
             </li>
             <li>
                 <a href="../CasoExtra/perfil.html">
-                    <img src="../../img/perfil.png" alt="Seu perfil" />
+                    <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
                 </a>
             </li>
 
         </ul>
     </footer>
-
-</body>
