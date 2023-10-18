@@ -24,6 +24,7 @@ main{
     padding: 2rem;
     padding-top: 8rem;
     padding-bottom: 6rem;
+    position: relative;
 }
 section{
     width: auto;
@@ -240,9 +241,8 @@ footer{
     display: flex;
 }
 .perfil_head{
-    position: relative;
     display: flex;
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     background-color: white;
 }
