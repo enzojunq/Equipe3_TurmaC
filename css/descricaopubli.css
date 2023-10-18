@@ -1,98 +1,38 @@
-html,body{
-    width: 100%;
-    height: 100%;
-}
-header{
-    width: 100%;
-    height: 6rem;
+.voltar{
     display: flex;
-    position: relative;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 2rem;
-    border-bottom: 1px solid black;
-    background: #8A1919;
-    position: fixed;
-    /* quero que fique na frente de tudo */
-    z-index: 10;
-
+    width: 3.25rem;
+    height: 3.5rem;
 }
-main{
-    padding: 2rem;
-    padding-top: 8rem;
-    height: 71.5%;
-}
-.coluna {
+.icone_camera{
     display: flex;
-    flex-direction: column;
+    width: 11.688rem;
+    height: 8.5rem;
+    top: 13.938rem;
+    left:3.5rem;
 }
-.iconemenu {
-    width: 2rem;
-    height: auto;
-}
-.iconesheader{
-    margin-right: 0.8rem;
-    margin-bottom: 0.2rem;
-    width: 2rem;
-    height: auto;
-}
-.posicaomenu{
+.icone_mapa{
     display: flex;
-    position: absolute;
-    left: 0.5rem;
-    top: 3.5rem;
-}
 
-.posicaologo{
+}
+.caixa_de_texto {
     display: flex;
-    position:absolute;
-    left: 3.5rem;
-    top: 3.8rem;
-}
-.textologo{
-    display: flex;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: black;
-}
-.linha {
-    display: flex;
-    flex-direction: row;
+    width:20rem ;
+    height:8.5rem ;
 }
 
-
-
-
-/* fazer codigo */
-
-
-
-
-
-
-
-
-
-
-/* fim do codigo */
-
-footer{
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    border-bottom: 1px solid black;
-    background: #8A1919;
-    position: fixed;
-    bottom: 0;
+.caixa_de_texto input{
+    width: 20rem;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
-.footer{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.quadro{
+    width: 20.2rem;
+    height: 2.8rem;
+    background-color: gray; 
 }
-.nav_icons{
-    width: 3.5rem;
-    height: auto;
+.imais{
+    width: 2.1rem;
+    height: 2rem;
 }
