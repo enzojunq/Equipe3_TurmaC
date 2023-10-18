@@ -4,130 +4,162 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" href="../css/reset.css" rel="stylesheet" />
+    <link type="text/css" href="../css/perfil.css" rel="stylesheet" />
     <title>Perfil</title>
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>
-                <a href="../CasoExtra/menu.html">
-                    <img src="../../img/menu.png" alt="Menu" />
-                </a>
+        <ul class="linha">
+            <li class="posicaomenu">
+                <button onclick="openPopup()">
+                    <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
+                </button>
+                
             </li>
-            <li>
-                <a href="#">LOGO</a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="../../img/amigos.png" alt="Amigos" />
-                </a>
+            <li class="posicaologo">
+                <a href="#" class="textologo">LOGO</a>
             </li>
             <li>
                 <a href="galeria.html">
-                    <img src="../../img/plus_icon.png" alt="Adicionar publicação" />
+                    <img class="iconesheader" src="../icones/mais.png" alt="Adicionar publicação" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="iconesheader" src="../icones/amigos.png" alt="Amigos" />
                 </a>
             </li>
         </ul>
     </header>
     <main>
-        <section>
+        <section class="perfil_head">
             <ul>
                 <li>
-                    <img src= "../../img/user_photo.png" alt= 'Sua foto de perfil' />
-
+                    <ul class="profile">
+                        <li>
+                            <img src= "../icones/perfil.png" class="foto_perfil" alt= 'Sua foto de perfil' />
+                        </li>
+                        <li class="nome_usuario">
+                            <h3>Seu usuário</h3>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <h3>Seu nome</h3>
-                </li>
-                <li>
+            </ul>
+            <ul class="elementos_perfil">
+                <li class="follow-followed"> 
                     <h3>Seguidores</h3>
+                    <a>XX</a>
                 </li>
-            </ul>
-            <ul>
-                <li>
-                    <a>xx</a>
-                </li>
-                <li>
+                <li class="follow-followed">
                     <h3>Seguindo</h3>
-
+                    <a>YY</a>
                 </li>
-                <li> 
-                    <a>yy</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <button>
+                <li class="compartilhar_editar">
+                    <button class="botao_perfil">
                      Compartilhar 
                     </button>
-                </li>
-                <li>
-                    <button>
-                    Editar 
+                    <button class="botao_perfil">
+                        Editar 
                     </button>
                 </li>
             </ul>
         </section>
         <section>
-            <ul>
+            <ul class="post">
                 <li>
-                    <img src="../../img/user_photo.png" alt="Foto do Usuário" />
+                    <ul class="post2">
+                        <li>
+                            <ul class="perfil_e_nome">
+                                <li>
+                                    <img class="icone_perfil" src="../icones/perfil.png" alt="Perfil" />
 
+                                </li>
+                                <li>
+                                    <h3>@Seu usuário</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img class="foto_atividade" src="https://fakeimg.pl/250x150?text=Foto-da-Atividade"
+                                alt="Foto da Atividade" />
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <h3>Seu Usuário</h3>
-                </li>
-                <li>
-                    <p>Esporte</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="../../img/foto_atividade.png" alt="Foto da Atividade" />
-                </li>
-                <li>
-                    <img src="../../img/mapa_do_local.png" alt="Local" />
+                    <ul>
+                        <li class="altura_texto">
+                            <p>Esporte</p>
+                        </li>
 
+                        <li>
+                            <img class="mapa" src="https://fakeimg.pl/130x130?text=Mapa" alt="Foto da Atividade" />
+
+                        </li>
+                    </ul>
                 </li>
+
             </ul>
             <ul>
                 <li>
-                    <img src="../../img/coracao.png" alt="Curtir" />
-                </li>
-                <li>
-                    01/01/2023, 14:51
+                    <ul class="curtida_hora">
+                        <li>
+                            <img class="like" src="../icones/curtida.png" alt="Curtir" />
+                        </li>
+                        <li>
+                            <p>01/01/2023, 14:51</p>
+                        </li>
+                    </ul>
                 </li>
             </ul>
+
         </section>
         <section>
-            <ul>
+            <ul class="post">
                 <li>
-                    <img src="../../img/user_photo.png" alt="Foto do Usuário" />
+                    <ul class="post2">
+                        <li>
+                            <ul class="perfil_e_nome">
+                                <li>
+                                    <img class="icone_perfil" src="../icones/perfil.png" alt="Perfil" />
 
+                                </li>
+                                <li>
+                                    <h3>@Seu usuário</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img class="foto_atividade" src="https://fakeimg.pl/250x150?text=Foto-da-Atividade"
+                                alt="Foto da Atividade" />
+                        </li>
+                    </ul>
                 </li>
                 <li>
-                    <h3>Seu Usuário</h3>
+                    <ul>
+                        <li class="altura_texto">
+                            <p>Esporte</p>
+                        </li>
+
+                        <li>
+                            <img class="mapa" src="https://fakeimg.pl/130x130?text=Mapa" alt="Foto da Atividade" />
+
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <p>Esporte</p>
-                </li>
+
             </ul>
             <ul>
                 <li>
-                    <img src="../../img/foto_atividade.png" alt="Foto da Atividade" />
-                </li>
-                <li>
-                    <img src="../../img/mapa_do_local.png" alt="Local" />
-
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="../../img/coracao.png" alt="Curtir" />
-                </li>
-                <li>
-                    01/01/2023, 14:51
+                    <ul class="curtida_hora">
+                        <li>
+                            <img class="like" src="../icones/curtida.png" alt="Curtir" />
+                        </li>
+                        <li>
+                            <p>01/01/2023, 14:51</p>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </section>
@@ -135,25 +167,25 @@
 
     </main>
     <footer>
-        <ul>
+        <ul class="footer">
             <li>
-                <a href="#">
-                    <img src="../../img/home_icon.png" alt="Home" />
+                <a href="../Caso1/feed.html">
+                    <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
             <li>
-                <a href="../Caso2/locais_por_perto.html">
-                    <img src="../../img/lupa_icon.png" alt="Pesquisar locais" />
+                <a href="../Caso2/1_locais_por_perto.html">
+                    <img class="nav_icons" src="../icones/lupa.png" alt="Pesquisar locais" />
                 </a>
             </li>
             <li>
                 <a href="../Caso3/suas_reservas.html">
-                    <img src="../../img/reservas.png" alt="Suas reservas" />
+                    <img class="nav_icons" src="../icones/reservas.png" alt="Suas reservas" />
                 </a>
             </li>
             <li>
                 <a href="../CasoExtra/perfil.html">
-                    <img src="../../img/perfil_b.png" alt="Seu perfil" />
+                    <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
                 </a>
             </li>
 
