@@ -47,25 +47,68 @@
     width: 2.1rem;
     height: 2rem;
 }
-.marcar{
+.marcar {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20.4rem;
+    flex-direction: row;
+    align-items: center; /* Centralizar verticalmente */
+    text-align: center;
+  }
+.texto1{
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 20.4rem;
     flex-direction: row;
     align-self: flex-end;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    font-size: larger;
 }
 .tipo{
     display: flex;
     margin-bottom: 1rem;
     width: 20.4rem;
     flex-direction: row;
-    align-self: flex-end;
+    justify-content: flex-start; /* Alinhar à esquerda horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    text-align: center;
 
+}
+.texto2{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20.4rem;
+    flex-direction: row;
+    align-self: flex-end;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
 }
 .quadro{
     display: flex;
     flex-direction: column;
     align-items: center;
     
+}
+.publi {
+    background-color: red;
+    display: flex;
+    width: 20.4rem;
+    height: 5rem;
+    flex-direction: row;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    margin:0rem;
 }
