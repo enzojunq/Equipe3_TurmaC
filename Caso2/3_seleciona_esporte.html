@@ -4,72 +4,149 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seleciona esporte</title>
+    <title>Locais por perto</title>
+    <link type="text/css" href="../css/reset.css" rel="stylesheet" />
+    <link type="text/css" href="../css/locais_perto2.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
 </head>
 
 <body>
+
+    
+
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="botao_spec">
+                <li class="botao">
+                    <a href="../Caso1/feed.html">
+                        <button class="botao_spec">Feed de Atividades</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec">Buscar</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html"></a>
+                    <button class="botao_spec">Minhas reservas</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Meu perfil</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Ajuda</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Sobre</button>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
+
+
+
     <header>
-        <ul>
-            <li>
-                <a href=".../Caso2/3_seleciona_esporte.html">
-                    <img src="../../img/menu.png" alt="Seleciona Esporte" />
-                </a>
+        <ul class="linha">
+            <li class="posicaomenu">
+                <button onclick="openPopup()">
+                    <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
+                </button>
+
+            </li>
+            <li class="posicaologo">
+                <a href="#" class="textologo">LOGO</a>
             </li>
             <li>
-                <a href="#">LOGO</a>
+                <a href="galeria.html">
+                    <img class="iconesheader" src="../icones/mais.png" alt="Adicionar publicação" />
+                </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="../../img/amigos.png" alt="Amigos" />
-                </a>
-            </li>
-            <li>
-                <a href="../Caso1/galeria.html">
-                    <img src="../../img/plus_icon.png" alt="Adicionar publicação" />
+                    <img class="iconesheader" src="../icones/amigos.png" alt="Amigos" />
                 </a>
             </li>
         </ul>
     </header>
     <main>
-        <ul>
+
+
+        
+
+
+        <ul class="headermain">
+            <li>
+                <a href="../Caso2/1_locais_por_perto.html">
+                    <img class="arrow" src="../icones/left-arrow.png" alt="Seta"></a>
+            </li>
             <li>
                 <h1>Quadras de futsal perto de você: </h1>
-
-                <button>
-                    <img src="../../img/lugares_perto1.png" alt="Lugares por Perto">
-                </button>
-                <button>
-                    <img src="../../img/lugares_perto2.png" alt="Lugares por Perto">
-                </button>
-                <button>
-                    <img src="../../img/lugares_perto3.png" alt="Lugares por Perto">
-                </button>
             </li>
+            
         </ul>
 
-        <footer>
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="../../img/home_icon.png" alt="Home" />
-                    </a>
-                </li>
-                <li>
-                    <a href="../Caso2/locais_por_perto.html">
-                        <img src="../../img/lupa_icon_b.png" alt="Pesquisar locais" />
-                    </a>
-                </li>
-                <li>
-                    <a href="../Caso3/suas_reservas.html">
-                        <img src="../../img/reservas.png" alt="Suas reservas" />
-                    </a>
-                </li>
-                <li>
-                    <a href="../CasoExtra/perfil.html">
-                        <img src="../../img/perfil.png" alt="Seu perfil" />
-                    </a>
-                </li>
+        <ul class="locais">
+            
+            
 
-            </ul>
-        </footer>
+
+            <li>
+                <img class="mapa" src="../icones/map.png" alt='mapa'>
+            </li>
+            <li class="card_cinza">
+                <p class="ponto">.</p>
+                <div class="info_card">
+                    <p>Centro Olímpico</p>
+                    <p class="distancia">à 600m</p>
+                </div>
+            </li>
+            <li class="card_cinza">
+                <p class="ponto">.</p>
+                <div class="info_card">
+                    <p>Playball Moema</p>
+                    <p class="distancia">à 1.3km</p>
+                </div>
+            </li>
+            <li class="card_cinza">
+                <p class="ponto">.</p>
+                <div class="info_card">
+                    <p>FutGol V. Olímpia</p>
+                    <p class="distancia">à 1.5km</p>
+                </div>
+            </li>
+
+        </ul>
     </main>
+    <footer>
+        <ul class="footer">
+            <li>
+                <a href="../Caso1/feed.html">
+                    <img class="nav_icons" src="../icones/home.png" alt="Home" />
+                </a>
+            </li>
+            <li>
+                <a href="../Caso2/1_locais_por_perto.html">
+                    <img class="nav_icons" src="../icones/lupa.png" alt="Pesquisar locais" />
+                </a>
+            </li>
+            <li>
+                <a href="../Caso3/suas_reservas.html">
+                    <img class="nav_icons" src="../icones/reservas.png" alt="Suas reservas" />
+                </a>
+            </li>
+            <li>
+                <a href="../CasoExtra/perfil.html">
+                    <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
+                </a>
+            </li>
+
+        </ul>
+        <p class="espaco">.</p>
+    </footer>
+
+
+</body>

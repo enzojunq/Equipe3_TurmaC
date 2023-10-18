@@ -64,11 +64,6 @@ main{
 
 
 
-
-
-
-
-/* FAÇA O CÓDIGO AQUI */
 .arrow {
     width: 2.5rem;
     height: auto;
@@ -137,8 +132,9 @@ a{
 }
 
 .mapa{
-    width: 12rem;
+    width: 8rem;
     height: auto;
+    margin-bottom: 1rem;
 
 }
 .locais{

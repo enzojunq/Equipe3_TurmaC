@@ -20,7 +20,7 @@ header{
 main{
     padding: 2rem;
     padding-top: 8rem;
-    height: 71.5%;
+    padding-bottom: 6rem;
 }
 .coluna {
     display: flex;
