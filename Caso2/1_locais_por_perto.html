@@ -12,13 +12,15 @@
 
 <body>
 
-    <ul id="popup" class="popup-hidden">
-        <li class="popup-content">
-            <span class="close-button" onclick="closePopup()">&times;</span>
+    <ul id="popup2" class="popup-hidden2">
+        <li class="popup-content2">
+            <span class="close-button2" onclick="closePopup2()">&times;</span>
             <ul class="popup2">
-                <li class="caixas">
-                    <p>Quadras de futsal</p>
-                </li>
+                <a href="../Caso2/3_seleciona_esporte.html">
+                    <li class="caixas">
+                        <p>Quadras de futsal</p>
+                    </li>
+                </a>
                 <li class="caixas">
                     <p>Campos de futebol</p>
                 </li>
@@ -35,15 +37,48 @@
         </li>
     </ul>
 
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="botao_spec">
+                <li class="botao">
+                    <a href="../Caso1/feed.html">
+                        <button class="botao_spec">Feed de Atividades</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec">Buscar</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html"></a>
+                    <button class="botao_spec">Minhas reservas</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Meu perfil</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Ajuda</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Sobre</button>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
 
 
 
     <header>
         <ul class="linha">
             <li class="posicaomenu">
-                <a href="../CasoExtra/menu.html">
+                <button onclick="openPopup()">
                     <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
-                </a>
+                </button>
+
             </li>
             <li class="posicaologo">
                 <a href="#" class="textologo">LOGO</a>
@@ -65,15 +100,15 @@
 
         <ul class="headermain">
             <li>
-
-                <img class="arrow" src="../icones/left-arrow.png" alt="Seta">
+                <a href="../Caso1/feed.html">
+                    <img class="arrow" src="../icones/left-arrow.png" alt="Seta"></a>
             </li>
             <li>
 
                 <h1>Buscar por: </h1>
             </li>
             <li>
-                <button onclick="openPopup()">Selecionar</button>
+                <button onclick="openPopup2()">Selecionar</button>
             </li>
         </ul>
 
@@ -108,7 +143,7 @@
                     <p class="distancia">à 600m</p>
                 </div>
             </li>
-            
+
         </ul>
     </main>
     <footer>

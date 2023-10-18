@@ -8,15 +8,49 @@
     <link type="text/css" href="../css/reset.css" rel="stylesheet" />
     <!-- COLOCAR O CSS CERTO ABAIXO -->
     <link type="text/css" href="../TEMPLATE/template.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
 </head>
 
 <body>
+
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="botao_spec">
+                <li class="botao">
+                    <a href="../Caso1/feed.html">
+                        <button class="botao_spec">Feed de Atividades</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec">Buscar</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html"></a>
+                    <button class="botao_spec">Minhas reservas</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Meu perfil</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Ajuda</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec">Sobre</button>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
     <header>
         <ul class="linha">
             <li class="posicaomenu">
-                <a href="../CasoExtra/menu.html">
+                <button onclick="openPopup()">
                     <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
-                </a>
+                </button>
             </li>
             <li class="posicaologo">
                 <a href="#" class="textologo">LOGO</a>
@@ -34,7 +68,7 @@
         </ul>
     </header>
     <main>
-        
+
         <!-- FAÇA O CÓDIGO AQUI -->
 
 
@@ -42,7 +76,7 @@
     <footer>
         <ul class="footer">
             <li>
-                <a href="#">
+                <a href="../Caso1/feed.html">
                     <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
