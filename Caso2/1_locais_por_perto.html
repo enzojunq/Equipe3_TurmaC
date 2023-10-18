@@ -7,9 +7,37 @@
     <title>Locais por perto</title>
     <link type="text/css" href="../css/reset.css" rel="stylesheet" />
     <link type="text/css" href="../css/locais_perto.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
 </head>
 
 <body>
+
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="popup2">
+                <li class="caixas">
+                    <p>Quadras de futsal</p>
+                </li>
+                <li class="caixas">
+                    <p>Campos de futebol</p>
+                </li>
+                <li class="caixas">
+                    <p>Quadras de basquete</p>
+                </li>
+                <li class="caixas">
+                    <p>Piscinas</p>
+                </li>
+                <li>
+                    <p class="mais">...</p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+
+
     <header>
         <ul class="linha">
             <li class="posicaomenu">
@@ -33,30 +61,60 @@
         </ul>
     </header>
     <main>
-        <h1>Buscar por: </h1>
 
-        <button>
-            <img src="../../img/botao_selecionar_esporte.png" alt="Buscar por" />
-        </button>
-        <ul>
+
+        <ul class="headermain">
             <li>
-                <a href='#'> Locais populares perto de você </a>
+
+                <img class="arrow" src="../icones/left-arrow.png" alt="Seta">
             </li>
             <li>
-                <img src="../../img/mapa_caso2.png" alt='mapa'>
+
+                <h1>Buscar por: </h1>
             </li>
             <li>
-                <img src="../../img/parque1.png" alt='parque 1'>
+                <button onclick="openPopup()">Selecionar</button>
+            </li>
+        </ul>
+
+
+
+        <ul class="locais">
+            <li class="linha">
+                <img class="plus" src="../icones/new_mais.png" alt="Mais">
+                <p>Locais populares perto de você:</p>
             </li>
             <li>
-                <img src="../../img/parque2.png" alt='parque 2'>
+                <img class="mapa" src="../icones/street-map.png" alt='mapa'>
             </li>
+            <li class="card_cinza">
+                <p class="ponto">.</p>
+                <div class="info_card">
+                    <p>Parque Ibirapuera</p>
+                    <p class="distancia">à 600m</p>
+                </div>
+            </li>
+            <li class="card_cinza">
+                <p class="ponto">.</p>
+                <div class="info_card">
+                    <p>Playball Moema</p>
+                    <p class="distancia">à 300m</p>
+                </div>
+            </li>
+            <li class="card_cinza">
+                <p class="ponto">.</p>
+                <div class="info_card">
+                    <p>PlayTennis</p>
+                    <p class="distancia">à 600m</p>
+                </div>
+            </li>
+            
         </ul>
     </main>
     <footer>
         <ul class="footer">
             <li>
-                <a href="#">
+                <a href="../Caso1/feed.html">
                     <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
@@ -78,3 +136,6 @@
 
         </ul>
     </footer>
+
+
+</body>
