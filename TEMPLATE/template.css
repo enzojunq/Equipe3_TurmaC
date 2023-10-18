@@ -11,7 +11,7 @@ header{
     align-items: flex-end;
     font-size: 2rem;
     border-bottom: 1px solid black;
-    background: #900000;
+    background: #8A1919;
     position: fixed;
     /* quero que fique na frente de tudo */
     z-index: 10;
@@ -78,7 +78,7 @@ footer{
     height: 5rem;
     display: flex;
     border-bottom: 1px solid black;
-    background: #900000;
+    background: #8A1919;
     position: fixed;
     bottom: 0;
 }
