@@ -1,0 +1,186 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    background: #900000;
+    position: fixed;
+    /* quero que fique na frente de tudo */
+    z-index: 10;
+
+}
+main {
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 200%;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.iconemenu {
+    width: 2rem;
+    height: auto;
+}
+.iconesheader{
+    margin-right: 0.8rem;
+    margin-bottom: 0.2rem;
+    width: 2rem;
+    height: auto;
+}
+.posicaomenu{
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 3.5rem;
+}
+
+.posicaologo{
+    display: flex;
+    position:absolute;
+    left: 3.5rem;
+    top: 3.8rem;
+}
+.textologo{
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    border-bottom: 1px solid black;
+    background: #900000;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_icons{
+    width: 3.5rem;
+    height: auto;
+}
+
+.nav_2{
+    width: auto;
+    height: auto;
+}
+
+.caixa{
+    width: 5rem;
+    height: 0.5rem;
+    background-color: rgb(199, 194, 194);
+    border: 0.1rem;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem; 
+    font-size: x-small;
+}
+
+.caixa_nome {
+    width: 10rem;
+    height: 4rem;
+    background-color: white;
+    border: 0.01rem ;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem; 
+    font-size:x-large ;
+}
+
+.caixa2{
+    width: 4.5rem;
+    height: 0.5rem;
+    background-color: white;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem; 
+    font-size: x-small;
+}
+
+.caixa2 img {
+    position: relative;
+    margin-top: -1rem;
+}
+
+.espacamento{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.55rem;
+}
+
+.espacamento img {
+    display: block;
+}
+
+.voltar{
+    width: 8rem;
+    height: 2rem;
+    display: block;
+}
+
+.espacamento2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.espacamento3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.55rem;
+}
+
+.espacamento5 {
+    height: 10rem;
+    margin-right: 0.25rem;
+}
+
+.espacamento4 {     
+    justify-content: center;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrow {
+    width: 1.5rem;
+    height: auto;
+}
+
+.botao {
+    display: block;
+    position: relative;
+    margin-left: 3.5rem;
+}
+
+.cor{
+    background-color: #900000;
+    color:white;
+}

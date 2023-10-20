@@ -86,90 +86,49 @@ footer{
     height: auto;
 }
 
-.caixa{
-    width: 5rem;
-    height: 0.5rem;
-    background-color: white;
-    border: 0.1rem solid black;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 0.5rem; 
-    font-size: x-small;
-}
-
-
-.caixa2{
-    width: 3rem;
-    height: 0.01rem;
-    background-color: white;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 0.5rem; 
-    font-size: x-small;
-}
-
-.caixa2 img {
-    position: relative;
-    margin-top: -1rem;
-}
-
-.espacamento{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.55rem;
-}
-
-.espacamento img {
-    display: block;
-}
-
-.voltar{
-    width: 8rem;
-    height: 2rem;
-    display: block;
-}
-
-.espacamento2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.espacamento3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center space-between;
-    padding: 0.55rem;
-}
-
-.espacamento5 {
-    height: 10rem;
-    margin-right: 0.25rem;
-}
-
-.espacamento4 { 
-    justify-content: center;
-}
-
-.foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .arrow {
-    width: 0.5rem;
+    width: 2.5rem;
     height: auto;
 }
 
-.botao {
-    display: block;
-    position: relative;
-    margin-left: 3.5rem;
+.espacamento_topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-right: auto;
+    padding: 0.55rem;
 }
 
-.cor{
+.caixa {
+    width: 8rem;
+    height: 3rem;
     background-color: #900000;
-    color:white;
+    color: white;
+    margin-right: 6rem;
+    text-align: center;
+    font-size: medium;
+}
+
+.caixas_quadras {
+    width: 15rem;
+    height: 3rem;
+    border: 0.05rem solid black;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.espacamento {
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.hitorico {
+    width: 8rem;
+    height: 3rem;
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
 }
