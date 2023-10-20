@@ -24,7 +24,10 @@
     height: auto;
 }
 
+.legenda{
+    padding-top: 1rem;
 
+}
 
 .caixa_de_texto {
     display: flex;
