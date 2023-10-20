@@ -1,0 +1,58 @@
+.bloco_principal{
+    display: flex;
+    align-items: center;
+}
+
+.bloco_botao{
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 2.5rem;
+    height: auto;
+}
+
+.reservas {
+    border: 0.1rem solid black;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.799);
+    height: 3rem;
+    flex-grow: 0.3;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout_geral{
+
+}
+.layout1{
+    border: 0.1rem solid black;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.texto1, .texto2, .texto3, .texto4, .texto5{
+    padding: 0.3rem;
+}
+.imagem_mapa1{
+
+}
+.hist{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: .1rem solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.378);
+    width: 60%;
+    text-align: center;
+}
+.layout_padrao{
+    border: 0.1rem solid black;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
