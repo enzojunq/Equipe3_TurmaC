@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Locais por perto</title>
+    <title>Camera</title>
     <link type="text/css" href="../css/reset.css" rel="stylesheet" />
-    <link type="text/css" href="../TEMPLATE/template.css" rel="stylesheet" />
+    <link type="text/css" href="../css/camera.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
 </head>
 
 <body>
     <header>
         <ul class="linha">
             <li class="posicaomenu">
-                <a href="../CasoExtra/menu.html">
+                <button class="button" onclick="openPopup()">
                     <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
-                </a>
+                </button>
             </li>
             <li class="posicaologo">
                 <a href="#" class="textologo">LOGO</a>
@@ -32,35 +33,50 @@
             </li>
         </ul>
     </header>
+
     <main>
-        <ul>
+        <ul class="linha, nav_2">
             <li>
-                <button>Feed de Atividades</button>
+                <ul class='coluna'>
+                    <li>
+                        
+                        <ul class="linha">
+                            <li>
+                                <a href="../Caso1/galeria.html">
+                                    <img class='arrow' src="../icones/left-arrow.png" alt="Seta para a esquerda" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="linha espacamento">
+                            <li>
+                                <img class='camera' src="https://fakeimg.pl/300x600?text=CÂMERA" alt="Câmera" />
+                            </li>
+                        </ul>
+                        <ul class="linha espacamento2">
+                            <li>
+                                <img class='imagem' src="../icones/camera.png" alt="Foto" />
+                            </li>
+                            <li>
+                                <a href="../Caso1/descricaopubli.html">
+                                    <img class='imagem' src="../icones/gravar.png" alt="Foto" />
+                                </a>
+                            </li>
+                            <li><img class='imagem' src="../icones/video.png" alt="Foto" />
+                            </li>
+                        </ul>
+                          
+                        
+                    </li>
+                </ul>
             </li>
-            <li>
-                <button>Buscar</button>
-            </li>
-            <li>
-                <button>Minhas reservas</button>
-            </li>
-            <li>
-                <button>Meu perfil</button>
-            </li>
-            <li>
-                <button>Ajuda</button>
-            </li>
-            <li>
-                <button>sobre</button>
-            </li>
-
         </ul>
-
-
     </main>
+    
+
     <footer>
         <ul class="footer">
             <li>
-                <a href="#">
+                <a href="../Caso1/feed.html">
                     <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
@@ -79,6 +95,5 @@
                     <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
                 </a>
             </li>
-
         </ul>
     </footer>

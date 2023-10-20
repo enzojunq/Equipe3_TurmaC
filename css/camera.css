@@ -21,6 +21,7 @@ main {
     padding: 2rem;
     padding-top: 8rem;
     height: 200%;
+    width: 100%;
 }
 .coluna {
     display: flex;
@@ -58,6 +59,7 @@ main {
 .linha {
     display: flex;
     flex-direction: row;
+   
 }
 
 footer{
@@ -86,109 +88,36 @@ footer{
     height: auto;
 }
 
-.caixa{
+.arrow {
+    width: 3rem;
+    height: 3rem;
+    margin-right: -2rem;
+}
+
+.camera {
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagem {
     width: 5rem;
-    height: 0.5rem;
-    background-color: rgb(199, 194, 194);
-    border: 0.1rem;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 0.5rem; 
-    font-size: x-small;
-}
-
-.caixa_nome {
-    width: 10rem;
-    height: 4rem;
-    background-color: white;
-    border: 0.01rem ;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 0.5rem; 
-    font-size:x-large ;
-}
-
-.caixa2{
-    width: 4.5rem;
-    height: 0.5rem;
-    background-color: white;
-    text-align: center;
-    padding: 0.5rem;
-    margin: 0.5rem; 
-    font-size: x-small;
-}
-
-.caixa2 img {
-    width: 3.75rem;
-    height: 4rem;
-    position: relative;
-    margin-top: -1rem;
-}
-
-.espacamento{
+    height: 5rem;
     display: flex;
     justify-content: space-between;
-    padding: 0.55rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
 }
 
-.espacamento img {
-    display: block;
-}
-
-.voltar{
-    width: 8rem;
-    height: 2rem;
-    display: block;
+.espacamento {
+    margin-bottom: -1.75rem;
+    display: flex;
+    justify-content: center;
 }
 
 .espacamento2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.espacamento3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.55rem;
-}
-
-.espacamento5 {
-    height: 10rem;
-    margin-right: 0.25rem;
-}
-
-.espacamento4 {    
-    height: 3rem;
-    width: 18rem; 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-
-.foto{
+    margin-bottom: -1.75rem;
+    margin-right: -2.5rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-}
-
-.arrow {
-    width: 1.5rem;
-    height: auto;
-}
-
-.botao {
-    display: block;
-    position: relative;
-    margin-left: 3.5rem;
-}
-
-.cor{
-    background-color: #900000;
-    color:white;
 }
