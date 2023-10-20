@@ -7,16 +7,14 @@ main {
     flex-direction: column;
     margin-bottom: 1rem;
 }
-.bases2{
-    position: relative;
-    margin-top: 1rem;
-}
 .imagens_galeria1 {
     display: flex;
     position: absolute;
     flex-direction: row;
     max-width: 100%;
-    bottom: 17rem;
+    bottom: 18.5rem;
+    left: 3rem;
+    right: .8rem;
 }
 .imagens_galeria1 img{
     width: 75%; 
@@ -27,9 +25,16 @@ main {
     position: absolute;
     flex-direction: row;
     max-width: 100%;
-    bottom: 10rem;
+    bottom: 10.5rem;
+    left: 3rem;
+    right: .8rem;
 }
 .imagens_galeria2 img{
     flex-direction: row;
     width: 75%;     
 }
+.base2 {
+    background-color: #f0f0f0; /* Cor de fundo desejada */
+    padding: 9rem; /* Adicione preenchimento para separar o conteúdo do fundo */
+}
+
