@@ -255,6 +255,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+    margin-left: 1rem;
 }
 .foto_perfil{
     width: 4rem;
