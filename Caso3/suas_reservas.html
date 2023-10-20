@@ -1,12 +1,13 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suas reservas</title>
+    <title>Locais por perto</title>
     <link type="text/css" href="../css/reset.css" rel="stylesheet" />
-    <link type="text/css" href="../css/suas_reservas.css" rel="stylesheet" />
+    <link type="text/css" href="../css/suas_reservas.css" rel="stylesheet"/>
+    <link type="text/css" href="../TEMPLATE/template.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
 </head>
 
 <body>
@@ -46,12 +47,10 @@
     <header>
         <ul class="linha">
             <li class="posicaomenu">
-                <a href="../CasoExtra/menu.html">
+                <button class="button" onclick="openPopup()">
                     <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
-                </a>
+                </button>
             </li>
-            <li class="posicaologo">
-                <a href="#" class="textologo">LOGO</a>
             <li class="posicaologo">
                 <a href="#" class="textologo">LOGO</a>
             </li>
@@ -63,67 +62,90 @@
             <li>
                 <a href="#">
                     <img class="iconesheader" src="../icones/amigos.png" alt="Amigos" />
-                <a href="#">
-                    <img class="iconesheader" src="../icones/amigos.png" alt="Amigos" />
                 </a>
             </li>
         </ul>
     </header>
 
-
     <main>
-        <ul class="linha, nav_2">
-            <li>
-                <ul class="coluna">
-                    <li>
-                        <ul class="espacamento_topo linha">
+        <div class="bloco_principal">
+            <div class="bloco_botao">     <!--- verificar -->
+                <a href="../Caso1/feed.html">
+                    <img class="arrow" src="../icones/left-arrow.png" alt="Seta">
+                </a>
+            </div>
+            <h3 class="reservas">Suas Reservas</h3>
+        </div>
 
-                            <a href="../Caso1/feed.html">
-                                <button>
-                                    <img class='arrow' src="../icones/left-arrow.png" alt="voltar" />
-                                </button>
-                            </a>
-        
-                            <li class="caixa">
-                               Suas Reservas
-                            </li>
-                        </ul>
-                        <ul class="linha espacamento">
-                            <li class="caixas_quadras">N</li>
-                        </ul>
-                        <ul class="linha espacamento">
-                            <li class="hitorico">Histórico</li>
-                        </ul>
-                        <ul class="linha espacamento">
-                            <li class="caixas_quadras">N</li>
-                        </ul>
-                        <ul class="linha espacamento">
-                            <li class="caixas_quadras">N</li>
-                        </ul>
-                        <ul class="linha espacamento">
-                            <li class="caixas_quadras">N</li>
-                        </ul>
-                        <ul class="linha espacamento">
-                            <li class="caixas_quadras">N</li>
-                        </ul>
-                    </li>
+        <ul class="layout_geral">
+            <ul class="layout1">
 
-                </ul>
-            </li>
+                <li class="texto1">
+                    <h3>Nome da quadra</h3>
+                </li>
+                <li class="texto2">
+                    <h3>Data e horário</h3>
+                </li>
+                <li class="texto3">
+                    <h3>Endereço</h3>
+                </li>
+                <li class="texto4">
+                    <h3>Código da reserva</h3>
+                </li>
+                <li class="texto5">
+                    <h3>Cancelar reserva</h3>
+                </li>
+                <li class="imagem_mapa1">
+                    <h3>MAPA</h3>
+                </li>
+            </ul>
+
+            <li class="hist">
+                HISTÓRIO
+             </li>
+
+            <ul class="layout_padrao">
+
+                <li class="texto1">
+                    <h3>Nome da quadra</h3>
+                </li>
+                <li class="texto2">
+                    <h3>Data e horário</h3>
+                </li>
+                <li class="texto3">
+                    <h3>Endereço</h3>
+                </li>
+                <li class="imagem_mapa1">
+                    <h3>MAPA</h3>
+                </li>
+            </ul>
+            <ul class="layout_padrao">
+
+                <li class="texto1">
+                    <h3>Nome da quadra</h3>
+                </li>
+                <li class="texto2">
+                    <h3>Data e horário</h3>
+                </li>
+                <li class="texto3">
+                    <h3>Endereço</h3>
+                </li>
+                <li class="imagem_mapa1">
+                    <h3>MAPA</h3>
+                </li>
+            </ul>
+
         </ul>
     </main>
 
     <footer>
         <ul class="footer">
-        <ul class="footer">
             <li>
-                <a href="#">
+                <a href="../Caso1/feed.html">
                     <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
             <li>
-                <a href="../Caso2/1_locais_por_perto.html">
-                    <img class="nav_icons" src="../icones/lupa.png" alt="Pesquisar locais" />
                 <a href="../Caso2/1_locais_por_perto.html">
                     <img class="nav_icons" src="../icones/lupa.png" alt="Pesquisar locais" />
                 </a>
@@ -131,16 +153,15 @@
             <li>
                 <a href="../Caso3/suas_reservas.html">
                     <img class="nav_icons" src="../icones/reservas.png" alt="Suas reservas" />
-                    <img class="nav_icons" src="../icones/reservas.png" alt="Suas reservas" />
                 </a>
             </li>
             <li>
                 <a href="../CasoExtra/perfil.html">
                     <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
-                    <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
                 </a>
             </li>
 
-
         </ul>
     </footer>
+
+</body>
