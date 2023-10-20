@@ -295,3 +295,6 @@ footer{
     color: grey;
     box-shadow: 2px 2px 2px 2px;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
