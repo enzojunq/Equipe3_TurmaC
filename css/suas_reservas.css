@@ -1,11 +1,89 @@
-.bloco_principal{
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 6rem;
     display: flex;
-    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    background: #900000;
+    position: fixed;
+    /* quero que fique na frente de tudo */
+    z-index: 10;
+
+}
+main{
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 200%;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.iconemenu {
+    width: 2rem;
+    height: auto;
+}
+.iconesheader{
+    margin-right: 0.8rem;
+    margin-bottom: 0.2rem;
+    width: 2rem;
+    height: auto;
+}
+.posicaomenu{
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 3.5rem;
 }
 
-.bloco_botao{
+.posicaologo{
     display: flex;
+    position:absolute;
+    left: 3.5rem;
+    top: 3.8rem;
+}
+.textologo{
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    border-bottom: 1px solid black;
+    background: #900000;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+}
+.nav_icons{
+    width: 3.5rem;
+    height: auto;
+}
+
+.nav_2{
+    width: auto;
+    height: auto;
 }
 
 .arrow {
@@ -13,43 +91,44 @@
     height: auto;
 }
 
-.reservas {
-    border: 0.1rem solid black;
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0.799);
-    height: 3rem;
-    flex-grow: 0.3;
-    font-weight: bold;
-    font-size: x-large;
-    color: black;
+.espacamento_topo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-right: auto;
+    padding: 0.55rem;
 }
-.layout1{
-    border: 0.1rem solid black;
-    margin-top: 2rem;
-    padding: 1rem;
-}
-.texto1, .texto2, .texto3, .texto4, .texto5{
-    padding: 0.3rem;
-}
-.imagem_mapa1{
 
-}
-.hist{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: .1rem solid black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(0, 0, 0, 0.378);
-    width: 60%;
+.caixa {
+    width: 8rem;
+    height: 3rem;
+    background-color: #900000;
+    color: white;
+    margin-right: 6rem;
     text-align: center;
-}
-.layout_padrao{
-    border: 0.1rem solid black;
-    margin-top: 2rem;
-    padding: 1rem;
+    font-size: medium;
 }
 
+.caixas_quadras {
+    width: 15rem;
+    height: 3rem;
+    border: 0.05rem solid black;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.espacamento {
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.hitorico {
+    width: 8rem;
+    height: 3rem;
+    background-color: gray;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+}
