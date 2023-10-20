@@ -3,17 +3,32 @@
     width: 3.25rem;
     height: 3.5rem;
 }
+
+.layout1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
 .icone_camera{
     display: flex;
-    width: 11.688rem;
-    height: 8.5rem;
-    top: 13.938rem;
-    left:3.5rem;
+    width: 10rem;
+    height: 6rem;
+    opacity: 0.7;
+    border: 0.1rem solid black;
+    padding: 1rem;
 }
 .icone_mapa{
     display: flex;
+    width: 6rem;
+    height: auto;
+}
+
+.legenda{
+    padding-top: 1rem;
 
 }
+
 .caixa_de_texto {
     display: flex;
     width:20rem ;
@@ -21,18 +36,82 @@
 }
 
 .caixa_de_texto input{
-    width: 20rem;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid gray;
-    border-radius: 5px;
+    width: 150%;
+    font-size: 1rem;
+    border: .1rem solid gray;
+    border-radius: .5rem;
 }
-.quadro{
-    width: 20.2rem;
-    height: 2.8rem;
-    background-color: gray; 
-}
+
 .imais{
     width: 2.1rem;
     height: 2rem;
+}
+.sport{
+    width: 2.1rem;
+    height: 2rem;
+}
+.marcar {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20.4rem;
+    flex-direction: row;
+    align-items: center; /* Centralizar verticalmente */
+    text-align: center;
+  }
+.texto1{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20.4rem;
+    flex-direction: row;
+    align-self: flex-end;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    font-size: larger;
+}
+.tipo{
+    display: flex;
+    margin-bottom: 1rem;
+    width: 20.4rem;
+    flex-direction: row;
+    justify-content: flex-start; /* Alinhar à esquerda horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    text-align: center;
+
+}
+.texto2{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20.4rem;
+    flex-direction: row;
+    align-self: flex-end;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.quadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.publi {
+    background-color: red;
+    display: flex;
+    width: 20.4rem;
+    height: 5rem;
+    flex-direction: row;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    margin:0rem;
 }
