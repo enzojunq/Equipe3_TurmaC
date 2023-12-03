@@ -1,9 +1,7 @@
 html,body{
     width: 100%;
     height: 100%;
-}
-a{
-    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     width: 100%;
@@ -24,25 +22,9 @@ main{
     padding: 2rem;
     padding-top: 8rem;
     padding-bottom: 6rem;
-    position: relative;
 }
-section{
-    width: auto;
-    height: 10rem;
-    display: flex;
-    background: #F5EFEF;
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.post{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+a{
+    text-decoration: none;
 }
 .coluna {
     display: flex;
@@ -64,17 +46,7 @@ section{
     left: 0.5rem;
     top: 3.5rem;
 }
-.altura_texto{
-    height: 2rem;
-    display: flex;
-    align-items: center;
-}
-.like{
-    height: 1rem;
-    display: flex;
-    width: auto;
-    margin-right: 1.5rem;
-}
+
 .posicaologo{
     display: flex;
     position:absolute;
@@ -86,62 +58,60 @@ section{
     font-size: 1.5rem;
     text-decoration: none;
     color: black;
-    
-}
-p{
-    font-size: .8rem;
-}
-.curtida_hora{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
 }
 .linha {
     display: flex;
     flex-direction: row;
 }
-.coluna {
-    display: flex;
-    flex-direction: column;
-}
 
-.flex_start{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.icone_perfil{
-    display: flex;
-    width: 1.5rem;
-    height: auto;
-    margin-right: .5rem;
-}
-.perfil_e_nome{
+.tirafoto{
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    font-weight: bold;
-    margin-bottom: .5rem;
+    width: 100%;
+    height: 4rem;
+    
 }
-.post2{
+
+
+.camera-icon{
+    margin-right: 1rem;
+    width: 4rem;
+    height: auto;
+}
+
+.circulo {
+    background-color: lightgray;
+    border-radius: 10rem;
+    width: 4rem;
+    height: 4rem;
+    border-color: black;
+    border-width: 1rem;
+}
+
+.video-icon{
+    margin-left: 1rem;
+    width: 4rem;
+    height: auto;
+
+}
+
+
+
+.camera{
+    width: 100%;
+    height: 33rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background: #8A1919;
+    position: relative;
+    z-index: 0;
 }
-.foto_atividade{
-    display: flex;
-    width: 10rem;
-    height: auto;
-}
-.mapa{
-    display: flex;
-    width: 6rem;
-    height: auto;
-}
+
 
 
 
@@ -163,7 +133,6 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
 }
 .nav_icons{
     width: 3.5rem;
@@ -215,7 +184,7 @@ footer{
     cursor: pointer;
   }
 
-  button{
+  .button{
     width: 100%;
     left: 0.2rem;
     height: 2rem;
@@ -239,62 +208,4 @@ footer{
 .botao{
     margin-top: 3rem;
     display: flex;
-}
-.perfil_head{
-    display: flex;
-    width: 90%;
-    flex-direction: column;
-    background-color: white;
-}
-.profile{
-    display: flex;
-    flex-direction: row;
-}
-.nome_usuario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    margin-left: 1rem;
-}
-.foto_perfil{
-    width: 4rem;
-    height: auto;
-}
-.elementos_perfil{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.follow-followed{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.compartilhar_editar{
-    height: 4.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.botao_perfil{
-    width: 100%;
-    height: 2rem;
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-    font-size: 1rem;
-    cursor: pointer;
-    box-shadow: 1px 1px 1px 1px;
-    
-}
-
-.botao_perfil:active {
-    position: relative;
-    color: grey;
-    box-shadow: 2px 2px 2px 2px;
-}
-body{
-    font-family: 'Roboto', sans-serif;
 }

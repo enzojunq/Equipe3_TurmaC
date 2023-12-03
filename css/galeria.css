@@ -35,6 +35,8 @@ main {
 }
 .base2 {
     background-color: #f0f0f0; /* Cor de fundo desejada */
-    padding: 9rem; /* Adicione preenchimento para separar o conteúdo do fundo */
+    padding: 9rem; 
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}

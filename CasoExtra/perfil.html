@@ -6,10 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" href="../css/reset.css" rel="stylesheet" />
     <link type="text/css" href="../css/perfil.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
     <title>Perfil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
+
+
 <body>
+
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="botao_spec">
+                <li class="botao">
+                    <a href="../Caso1/feed.html">
+                        <button class="botao_spec button">Feed de Atividades</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec button">Buscar</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html"></a>
+                    <button class="botao_spec button">Minhas reservas</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Meu perfil</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Ajuda</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Sobre</button>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
     <header>
         <ul class="linha">
             <li class="posicaomenu">
@@ -22,7 +61,7 @@
                 <a href="#" class="textologo">LOGO</a>
             </li>
             <li>
-                <a href="galeria.html">
+                <a href="../Caso1/camera.html">
                     <img class="iconesheader" src="../icones/mais.png" alt="Adicionar publicação" />
                 </a>
             </li>
@@ -39,7 +78,7 @@
                 <li>
                     <ul class="profile">
                         <li>
-                            <img src= "../icones/perfil.png" class="foto_perfil" alt= 'Sua foto de perfil' />
+                            <img src= "../icones/perfilblack.png" class="foto_perfil" alt= 'Sua foto de perfil' />
                         </li>
                         <li class="nome_usuario">
                             <h3>Seu usuário</h3>
