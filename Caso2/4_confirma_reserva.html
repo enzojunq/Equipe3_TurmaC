@@ -4,28 +4,68 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Confirma reserva</title>
+    <title>Camera</title>
+    <link type="text/css" href="../css/reset.css" rel="stylesheet" />
+    <link type="text/css" href="../css/camera.css" rel="stylesheet" />
+    <link type="text/css" href="../TEMPLATE/template.css" rel="stylesheet" />
+    <script src="../js/popup.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="botao_spec">
+                <li class="botao">
+                    <a href="../Caso1/feed.html">
+                        <button class="botao_spec button">Feed de Atividades</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec button">Buscar</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html"></a>
+                    <button class="botao_spec button">Minhas reservas</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Meu perfil</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Ajuda</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Sobre</button>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
     <header>
-        <ul>
-            <li>
-                <a href=".../Caso2/4_confirma_reserva.html">
-                    <img src="../../img/menu.png" alt="Confirma reserva" />
-                </a>
+        <ul class="linha">
+            <li class="posicaomenu">
+                <button class="button" onclick="openPopup()">
+                    <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
+                </button>
+            </li>
+            <li class="posicaologo">
+                <a href="#" class="textologo">LOGO</a>
             </li>
             <li>
-                <a href="#">LOGO</a>
+                <a href="galeria.html">
+                    <img class="iconesheader" src="../icones/mais.png" alt="Adicionar publicação" />
+                </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="../../img/amigos.png" alt="Amigos" />
-                </a>
-            </li>
-            <li>
-                <a href="../Caso1/galeria.html">
-                    <img src="../../img/plus_icon.png" alt="Adicionar publicação" />
+                    <img class="iconesheader" src="../icones/amigos.png" alt="Amigos" />
                 </a>
             </li>
         </ul>
@@ -71,29 +111,29 @@
             </li>
 
         </ul>
-        <footer>
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="../img/home_icon.png" alt="Home" />
-                    </a>
-                </li>
-                <li>
-                    <a href="../Caso2/locais_por_perto.html">
-                        <img src="../../img/lupa_icon_b.png" alt="Pesquisar locais" />
-                    </a>
-                </li>
-                <li>
-                    <a href="../Caso3/suas_reservas.html">
-                        <img src="../../img/reservas.png" alt="Suas reservas" />
-                    </a>
-                </li>
-                <li>
-                    <a href="../CasoExtra/perfil.html">
-                        <img src="../../img/perfil.png" alt="Seu perfil" />
-                    </a>
-                </li>
-
-            </ul>
-        </footer>
     </main>
+    <footer>
+        <ul class="footer">
+            <li>
+                <a href="../Caso1/feed.html">
+                    <img class="nav_icons" src="../icones/home.png" alt="Home" />
+                </a>
+            </li>
+            <li>
+                <a href="../Caso2/1_locais_por_perto.html">
+                    <img class="nav_icons" src="../icones/lupa.png" alt="Pesquisar locais" />
+                </a>
+            </li>
+            <li>
+                <a href="../Caso3/suas_reservas.html">
+                    <img class="nav_icons" src="../icones/reservas.png" alt="Suas reservas" />
+                </a>
+            </li>
+            <li>
+                <a href="../CasoExtra/perfil.html">
+                    <img class="nav_icons" src="../icones/perfil.png" alt="Seu perfil" />
+                </a>
+            </li>
+
+        </ul>
+    </footer>
