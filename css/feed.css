@@ -29,7 +29,7 @@ section{
     width: auto;
     height: 10rem;
     display: flex;
-    background: #F5EFEF;
+    background: #FFFFFF;
     margin-bottom: 2rem;
     padding: 1.5rem;
     display: flex;
@@ -191,7 +191,7 @@ footer{
     top:0rem;
     padding: 1rem;
     padding-top: 5.5rem;
-    border: 1px solid #888;
+    border: 1px solid #C7C2C2;
     width: 16.5rem;
     height: 100%;
   }

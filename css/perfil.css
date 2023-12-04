@@ -196,7 +196,7 @@ footer{
     top:0rem;
     padding: 1rem;
     padding-top: 5.5rem;
-    border: 1px solid #888;
+    border: 1px solid #C7C2C2;
     width: 16.5rem;
     height: 100%;
   }
@@ -292,7 +292,7 @@ footer{
 
 .botao_perfil:active {
     position: relative;
-    color: grey;
+    color: #C7C2C2;
     box-shadow: 2px 2px 2px 2px;
 }
 body{

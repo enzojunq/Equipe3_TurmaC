@@ -83,7 +83,7 @@ a{
 }
 
 .circulo {
-    background-color: lightgray;
+    background-color: #C7C2C2;
     border-radius: 10rem;
     width: 4rem;
     height: 4rem;
@@ -165,7 +165,7 @@ footer{
     top:0rem;
     padding: 1rem;
     padding-top: 5.5rem;
-    border: 1px solid #888;
+    border: 1px solid #C7C2C2;
     width: 16.5rem;
     height: 100%;
   }
@@ -190,7 +190,7 @@ footer{
     height: 2rem;
     background: #8A1919;
     border: none;
-    color: white;
+    color: #FFFFFF;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;

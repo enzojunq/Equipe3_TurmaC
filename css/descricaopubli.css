@@ -38,7 +38,7 @@
 .caixa_de_texto input{
     width: 150%;
     font-size: 1rem;
-    border: .1rem solid gray;
+    border: .1rem solid #C7C2C2;
     border-radius: .5rem;
 }
 
@@ -100,7 +100,7 @@
     
 }
 .publi {
-    background-color:#ADFFE0;
+    background-color:#C7C2C2;
     display: flex;
     width: 20.4rem;
     height: 5rem;
