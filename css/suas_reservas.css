@@ -16,12 +16,12 @@
 .reservas {
     border: 0.1rem solid black;
     text-align: center;
-    background-color: rgba(255, 0, 0, 0.799);
+    background-color: #8A1919;
     height: 3rem;
     flex-grow: 0.3;
     font-weight: bold;
     font-size: x-large;
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
