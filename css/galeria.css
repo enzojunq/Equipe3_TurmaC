@@ -7,6 +7,10 @@ main {
     flex-direction: column;
     margin-bottom: 1rem;
 }
+.linha{
+    display: flex;
+    flex-direction: row;
+}
 .imagens_galeria1 {
     display: flex;
     position: absolute;
@@ -20,13 +24,17 @@ main {
     width: 1rem; 
     flex-direction: row;
 }
+.imagens{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    bottom: 18.5rem;
+}
 .galeria{
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    width: 6.9rem;
     bottom: 18.5rem;
-    left: 3rem;
-    right: .8rem;
 }
 .imagens_galeria2 {
     display: flex;
