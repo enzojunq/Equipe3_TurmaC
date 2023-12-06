@@ -4,56 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Camera</title>
+    <title>Info reserva</title>
     <link type="text/css" href="../css/reset.css" rel="stylesheet" />
-    <link type="text/css" href="../css/camera.css" rel="stylesheet" />
-    <link type="text/css" href="../TEMPLATE/template.css" rel="stylesheet" />
-    <script src="../js/popup.js"></script>
+    <link type="text/css" href="../css/confirma_reserva.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <ul id="popup" class="popup-hidden">
-        <li class="popup-content">
-            <span class="close-button" onclick="closePopup()">&times;</span>
-            <ul class="botao_spec">
-                <li class="botao">
-                    <a href="../Caso1/feed.html">
-                        <button class="botao_spec button">Feed de Atividades</button>
-                    </a>
-                </li>
-                <li class="botao">
-                    <a href="../Caso2/1_locais_por_perto.html">
-                        <button class="botao_spec button">Buscar</button>
-                    </a>
-                </li>
-                <li class="botao">
-                    <a href="../Caso2/1_locais_por_perto.html"></a>
-                    <button class="botao_spec button">Minhas reservas</button>
-                </li>
-                <li class="botao">
-                    <button class="botao_spec button">Meu perfil</button>
-                </li>
-                <li class="botao">
-                    <button class="botao_spec button">Ajuda</button>
-                </li>
-                <li class="botao">
-                    <button class="botao_spec button">Sobre</button>
-                </li>
-
-            </ul>
-        </li>
-    </ul>
-
     <header>
         <ul class="linha">
             <li class="posicaomenu">
-                <button class="button" onclick="openPopup()">
+                <a href="../CasoExtra/menu.html">
                     <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
-                </button>
+                </a>
             </li>
             <li class="posicaologo">
                 <a href="#" class="textologo">LOGO</a>
@@ -70,52 +35,81 @@
             </li>
         </ul>
     </header>
-    <main>
-        <ul>
-            <li>
-                <h1>Nome do lugar: </h1>
-            </li>
-            <li>
-                <a href="#">Classificação:
-                    <img src="../img/classificacao_lugar.png" alt="classifica lugar">
-                </a>
-            </li>
-            <li>
-                <img src="../img/foto_lugar.png" alt="Foto lugar">
-            </li>
-            <li>
-                <button>
-                    Preco
-                </button>
-            </li>
-            <li>
-                <button>
-                    Endereço
-                </button>
-            </li>
-            <li>
-                <button>
-                    Contato
-                </button>
-            </li>
-            <li>
-                Horários disponíveis
-                <button>
-                    <img src="../img/selecionar_horarios_lugar.png" alt="Seleciona Horários">
-                </button>
-            </li>
-            <li>
-                <button>
-                    <img src="../img/botao_confirmar_reserva.png" alt="Confirma reserva">
-                </button>
-            </li>
 
+    <main>
+        <ul class="linha, nav_2">
+            <li>
+                <ul class='coluna'>
+                    <li>
+                        <ul class="linha">
+                            <li>
+                                <a href="./3_seleciona_esporte.html">
+
+                                    <img class='arrow' src="../icones/left-arrow.png" alt="Seta para a esquerda" />
+
+                                </a>
+
+
+                            </li>
+
+                        </ul>
+                        <ul class="linha espacamento">
+                            <li class="caixa_nome">Nome do lugar</li>
+                            <li class="caixa2">
+                                <ul class="coluna">
+                                    <li><img src="../icones/rating.png" alt="classificação" /></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="linha foto">
+                            <li>
+                                <img src="https://fakeimg.pl/300x300?text=Foto" alt="foto do lugar" />
+                            </li>
+                        </ul>
+                        <ul class="linha">
+                            <li>
+                                <ul class="espacamento3">
+                                    <li>
+                                        <ul class="espacamento2">
+                                            <li class="caixa">Preço</li>
+                                            <li class="caixa">Endereço</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="botao">
+                                            <li class="caixa">
+
+                                                Data e hora
+
+                                            </li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                        </ul>
+                        <ul class="linha espacamento4">
+                            <li>
+                                <a href="../Caso3/suas_reservas.html">
+                                    <button class="cor">
+                                        Confirmar reserva
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
         </ul>
+
     </main>
+
     <footer>
         <ul class="footer">
             <li>
-                <a href="../Caso1/feed.html">
+                <a href="#">
                     <img class="nav_icons" src="../icones/home.png" alt="Home" />
                 </a>
             </li>
