@@ -17,8 +17,16 @@ main {
     right: .8rem;
 }
 .imagens_galeria1 img{
-    width: 75%; 
+    width: 1rem; 
     flex-direction: row;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    bottom: 18.5rem;
+    left: 3rem;
+    right: .8rem;
 }
 .imagens_galeria2 {
     display: flex;
