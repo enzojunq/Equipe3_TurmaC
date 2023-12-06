@@ -58,6 +58,26 @@ main {
     display: flex;
     flex-direction: row;
 }
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating {
+    width: 1rem;
+    height: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.nome{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
 
 footer{
     width: 100%;
@@ -77,6 +97,10 @@ footer{
 }
 .nav_icons{
     width: 3.5rem;
+    height: auto;
+}
+img{
+    width: 100%;
     height: auto;
 }
 
@@ -117,22 +141,12 @@ footer{
     font-size: x-small;
 }
 
-.caixa2 img {
-    width: 3.75rem;
-    height: 4rem;
-    position: relative;
-    margin-top: -1rem;
-}
-
 .espacamento{
     display: flex;
     justify-content: space-between;
     padding: 0.55rem;
 }
 
-.espacamento img {
-    display: block;
-}
 
 .voltar{
     width: 8rem;
@@ -192,6 +206,322 @@ footer{
     color:white;
     height: 2.5rem;
     width: 18rem;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.popup-hidden {
+    display: none;
+  }
+  
+  #popup {
+    display: none;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.7); 
+    z-index: 2; 
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #8A1919;
+    position: relative;
+    top:0rem;
+    padding: 1rem;
+    padding-top: 5.5rem;
+    border: 1px solid #888;
+    width: 16.5rem;
+    height: 100%;
+  }
+  
+  .close-button {
+    display:flex;
+    justify-content: flex-end;
+    color: black;
+    position: absolute;
+    width: 1rem;
+    height: auto;
+    left: 2rem;
+    top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .button{
+    width: 100%;
+    left: 0.2rem;
+    height: 2rem;
+    background: #8A1919;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+.botao_spec{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: normal;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.botao{
+    margin-top: 3rem;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    background: #8A1919;
+    position: fixed;
+    /* quero que fique na frente de tudo */
+    z-index: 1;
+
+}
+main{
+    padding: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+section{
+    width: auto;
+    height: 10rem;
+    display: flex;
+    background: #F5EFEF;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+.iconemenu {
+    width: 2rem;
+    height: auto;
+}
+.iconesheader{
+    margin-right: 0.8rem;
+    margin-bottom: 0.2rem;
+    width: 2rem;
+    height: auto;
+}
+.posicaomenu{
+    display: flex;
+    position: absolute;
+    left: 0.5rem;
+    top: 3.5rem;
+}
+.altura_texto{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.like{
+    height: 1rem;
+    display: flex;
+    width: auto;
+    margin-right: 1.5rem;
+}
+.posicaologo{
+    display: flex;
+    position:absolute;
+    left: 3.5rem;
+    top: 3.8rem;
+}
+.textologo{
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    
+}
+p{
+    font-size: .8rem;
+}
+.curtida_hora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icone_perfil{
+    display: flex;
+    width: 1.5rem;
+    height: auto;
+    margin-right: .5rem;
+}
+.perfil_e_nome{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.post2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.foto_atividade{
+    display: flex;
+    width: 10rem;
+    height: auto;
+}
+.mapa{
+    display: flex;
+    width: 6rem;
+    height: auto;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    border-bottom: 1px solid black;
+    background: #8A1919;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav_icons{
+    width: 3.5rem;
+    height: auto;
+}
+
+
+.popup-hidden {
+    display: none;
+  }
+  
+  #popup {
+    display: none;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.7); 
+    z-index: 2; 
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #8A1919;
+    position: relative;
+    top:0rem;
+    padding: 1rem;
+    padding-top: 5.5rem;
+    border: 1px solid #C7C2C2;
+    width: 16.5rem;
+    height: 100%;
+  }
+  
+  .close-button {
+    display:flex;
+    justify-content: flex-end;
+    color: black;
+    position: absolute;
+    width: 1rem;
+    height: auto;
+    left: 2rem;
+    top: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button{
+    width: 100%;
+    left: 0.2rem;
+    height: 2rem;
+    background: #8A1919;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+.botao_spec{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: normal;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.botao{
+    margin-top: 3rem;
+    display: flex;
 }
 body{
     font-family: 'Roboto', sans-serif;

@@ -10,15 +10,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="../js/popup.js"></script>
 </head>
 
 <body>
+    <ul id="popup" class="popup-hidden">
+        <li class="popup-content">
+            <span class="close-button" onclick="closePopup()">&times;</span>
+            <ul class="botao_spec">
+                <li class="botao">
+                    <a href="../Caso1/feed.html">
+                        <button class="botao_spec button">Feed de Atividades</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec button">Buscar</button>
+                    </a>
+                </li>
+                <li class="botao">
+                    <a href="../Caso2/1_locais_por_perto.html">
+                        <button class="botao_spec button">Minhas reservas</button></a>
+                </li>
+                <li class="botao">
+                    <a href="../CasoExtra/perfil.html">
+                        <button class="botao_spec button">Meu perfil</button></a>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Ajuda</button>
+                </li>
+                <li class="botao">
+                    <button class="botao_spec button">Sobre</button>
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+
+
+
     <header>
         <ul class="linha">
             <li class="posicaomenu">
-                <a href="../CasoExtra/menu.html">
+                <button class="button" onclick="openPopup()">
                     <img class="iconemenu" src="../icones/menu.png" alt="Menu" />
-                </a>
+                </button>
             </li>
             <li class="posicaologo">
                 <a href="#" class="textologo">LOGO</a>
@@ -43,7 +79,7 @@
                     <li>
                         <ul class="linha">
                             <li>
-                                <a href="./3_seleciona_esporte.html">
+                                <a href="../Caso2/3_seleciona_esporte.html">
 
                                     <img class='arrow' src="../icones/left-arrow.png" alt="Seta para a esquerda" />
 
@@ -53,15 +89,20 @@
                             </li>
 
                         </ul>
-                        <ul class="linha espacamento">
-                            <li class="caixa_nome">Nome do lugar</li>
-                            <li class="caixa2">
-                                <ul class="coluna">
-                                    <li><img src="../icones/rating.png" alt="classificação" /></li>
+                        <ul class="linha2">
+                            <li class="nome">Nome do lugar</li>
+                            <li>
+                                <ul class="linha">
+                                    <li><img class="rating" src="../icones/star.png" alt="classificação" /></li>
+                                    <li><img class="rating" src="../icones/star.png" alt="classificação" /></li>
+                                    <li><img class="rating" src="../icones/star.png" alt="classificação" /></li>
+                                    <li><img class="rating" src="../icones/star.png" alt="classificação" /></li>
+                                    <li><img class="rating" src="../icones/star.png" alt="classificação" /></li>
                                 </ul>
+
                             </li>
                         </ul>
-                        <ul class="linha foto">
+                        <ul>
                             <li>
                                 <img src="https://fakeimg.pl/300x300?text=Foto" alt="foto do lugar" />
                             </li>
@@ -95,8 +136,7 @@
                                 <a href="../Caso3/suas_reservas.html">
                                     <button class="cor">
                                         Confirmar reserva
-                                    </button>
-                                </a>
+                                    </button></a>
                             </li>
                         </ul>
                     </li>
